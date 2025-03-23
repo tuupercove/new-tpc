@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
 
+@plugin "daisyui";
+
 body {
     font-family: Mali, sans-serif;
 }
