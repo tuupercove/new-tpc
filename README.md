@@ -1,5 +1,13 @@
 # ![Frontend Cover](_readme-architecture/new-tpc.hotcup.app.png)
 
+# Badge
+
+<center>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb12a400-625d-40eb-a949-59e96d955584/deploy-status)](https://app.netlify.com/sites/tuupercoveth/deploys)
+
+</center>
+
 # TuuperCove Web Interface
 
 Welcome to the TuuperCove Web Interface! This web-based platform is designed for discovering, voting, and managing Vtubers.
