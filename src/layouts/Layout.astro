@@ -2,6 +2,7 @@
 import "@/styles/global.css";
 import "@/styles/loading.css";
 import Navbar from '@/layouts/Navbar.astro'
+import Footer from "@/layouts/Footer.astro";
 import { Toaster } from 'react-hot-toast'
 ---
 
@@ -55,6 +56,7 @@ import { Toaster } from 'react-hot-toast'
 			}
 		/>
 		<slot />
+		<Footer />
 	</body>
 </html>
 
