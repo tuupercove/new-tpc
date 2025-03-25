@@ -1,5 +1,6 @@
 ---
-import DiscordInviteButton from "./DiscordInviteButton"
+import DiscordInviteButton from "@/components/DiscordInviteButton"
+import AddBTN from "@/components/actions/AddBTN"
 ---
 
 <nav>
@@ -43,7 +44,8 @@ import DiscordInviteButton from "./DiscordInviteButton"
     </ul>
   </div>
   <div class="navbar-end">
-    <DiscordInviteButton client:load inviteUrl="https://discord.gg/P6GFMUNA87" />
+    <AddBTN client:load />
+    <!-- <DiscordInviteButton client:load inviteUrl="https://discord.gg/P6GFMUNA87" /> -->
   </div>
 </div>
 </nav>

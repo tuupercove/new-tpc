@@ -4,10 +4,18 @@ import Layout from '../layouts/Layout.astro';
 import { Button } from '@heroui/react';
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+
+import { toast } from 'react-hot-toast'
+
+const testToast = () => toast.success('Successfully created!');
 ---
 
 <Layout>
-	<p>Welcome</p>
-	<a href="/talents">Talent</a>
-	<a href="/affiliates">Affiliate</a>
+	<div class="container">
+		<div class="container">
+			<div class="container">
+				<p>hello world</p>
+			</div>
+		</div>
+	</div>
 </Layout>

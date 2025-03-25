@@ -1,7 +1,8 @@
 ---
 import "@/styles/global.css";
 import "@/styles/loading.css";
-import Navbar from '@/components/Navbar.astro'
+import Navbar from '@/layouts/Navbar.astro'
+import { Toaster } from 'react-hot-toast'
 ---
 
 <!doctype html>
@@ -40,6 +41,19 @@ import Navbar from '@/components/Navbar.astro'
 	</head>
 	<body>
 		<Navbar />
+		<Toaster
+			position="top-center"
+			reverseOrder={false}
+			toastOptions={
+				{
+					style: {
+						borderRadius: '10px',
+						background: '#333',
+						color: '#fff',
+					},
+  				}
+			}
+		/>
 		<slot />
 	</body>
 </html>
