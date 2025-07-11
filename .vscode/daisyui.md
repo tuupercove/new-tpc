@@ -1,0 +1,1 @@
+curl -L https://daisyui.com/llms.txt --create-dirs -o .vscode/daisyui.md
