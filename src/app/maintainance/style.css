@@ -1,0 +1,31 @@
+body {
+/*	background-color: #1f232b;*/
+	background: linear-gradient(to bottom right, #93b9ff 2%, #e6c4cb 98%);
+	background-attachment: fixed
+}
+
+body,html {
+    height: 100%;
+}
+
+#page-wrap {
+    position: relative;
+    width: 95%;
+    margin: 100px auto;
+    padding: 10px;
+            /* From https://css.glass + VS code Auto gen*/
+            background: rgba(26, 26, 26, 0.58);
+            border-radius: 32px;
+            box-shadow: 0 40px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(2.0px);
+            -webkit-backdrop-filter: blur(2.0px);
+            border: 1px solid rgb(58, 58, 58);
+        }
+
+
+div.font01 {
+    line-height: 150%;
+}
+div.font00 {
+    line-height: 90%;
+}
