@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Itim } from "next/font/google";
+import { Itim } from "next/font/google";
 import "./globals.css";
-import { redirect } from "next/navigation";
 
 const itimSans = Itim({
   variable: "--font-itim-sans",
